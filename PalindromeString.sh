@@ -1,7 +1,4 @@
-echo ”To check whether given string is palindrome or not”
-echo "Enter the string: "
-read str
-
+read -p "Enter a string: " str
 len=$(echo "$str" | wc -c)
 
 while [ $len -gt 0 ]
@@ -12,7 +9,6 @@ ch=$(echo "$str" | cut -c $len)
           len=`expr $len - 1`
 done
 echo ""
-
 if [ $s1 != $str ]
 then
 echo " The string is not palindrome"
