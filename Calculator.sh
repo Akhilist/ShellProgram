@@ -1,7 +1,4 @@
-echo "Enter Two numbers : "
-read a
-read b
-
+read -p "Enter Two numbers : " a b ;
 while true
 do
 echo "Enter Choice :"
@@ -24,6 +21,6 @@ case $ch in
 exit 0
 ;;
 esac
-echo "Result : $res"
+echo "Result is : $res"
 done
 
