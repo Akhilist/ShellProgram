@@ -1,4 +1,4 @@
-read -p "Enter a number: " number
+read -p "Enter a number: " number;
 temp=$number
 while [ $temp -ne 0 ]
 do
