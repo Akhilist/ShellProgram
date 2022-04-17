@@ -1,3 +1,4 @@
+
 read -p "Enter the number: " n
 function ams
 {
