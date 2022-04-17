@@ -1,5 +1,4 @@
-echo "Enter three integers with space between"
-read a b c
+read -p "Enter three integers with space between" a b c ;
 sum=`expr $a + $b + $c`
 mean=`expr $sum / 3`
 aa=$((($a - $mean) * ($a - $mean)))
