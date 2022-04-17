@@ -1,11 +1,8 @@
-echo "---- EVEN OR ODD IN SHELL SCRIPT -----"
-echo "Enter a number:"
-read n
-echo "RESULT: "
-rem=$(($n%2))
-if [ $rem -eq 0 ]
+read -p "Enter a number:" n ;
+rem=$(($n%2));
+if [ $rem -ne 0 ];
 then
-	echo "$n is even"
+	echo "$n is odd number!!"
 else
-	echo "$n is Odd"
+	echo "$n is Even number!!"
 fi
