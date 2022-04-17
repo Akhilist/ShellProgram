@@ -1,5 +1,4 @@
-echo "Enter the number"
-read n
+read -p "Enter the number: " n
 function ams
 {
 t=$n
@@ -16,10 +15,10 @@ done
 #echo $s
 if [ $s == $t ]
 then
-echo "Armstrong number"
+echo "an Armstrong number"
 else
 echo "Not an Armstrong number"
 fi
 }
 result=`ams`
-echo $t" is $result"
+echo $t"$n is $result"
