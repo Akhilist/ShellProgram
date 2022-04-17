@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 read -p "Enter the number: " n
 function ams {
     t=$n
@@ -19,3 +19,4 @@ function ams {
     fi
 }
 result=$(ams)
+echo "$n is $result"
