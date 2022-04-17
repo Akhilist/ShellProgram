@@ -1,7 +1,6 @@
-echo "Enter a limit"
-read limit
-echo "prime numbers upto $limit are :"
-echo "1"
+read -p "Enter a limit:" limit
+printf "prime numbers upto $limit are :"
+printf "1"
 i=2
 while [ $i -le $limit ]
 do
@@ -19,7 +18,7 @@ do
     done
     if [ $flag -eq 1 ]
     then
-       echo "$i"
+       printf " $i"
     fi
 i=$(( $i+1 ))
 done
